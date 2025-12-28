@@ -1,0 +1,22 @@
+version: "3.1"
+
+stories:
+
+- story: happy user path
+  steps:
+    - intent: greet
+    - action: utter_greet
+    - intent: provide_name
+    - action: utter_ask_mood
+    - intent: mood_positive
+    - action: utter_goodbye
+
+- story: distressed user path
+  steps:
+    - intent: greet
+    - action: utter_greet
+    - intent: provide_name
+    - action: utter_ask_mood
+    - intent: mood_negative
+    - action: utter_support
+    - action: utter_offer_help

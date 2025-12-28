@@ -1,0 +1,30 @@
+#Chats with Bot for reference:
+#some commands:pip install rasa, rasa init(to get all folders install), rasa run --enable-api --cors "*" (to run rasa bot in web), rasa data validate (to validate code before execution), rasa train(to train model), rasa run actions(to run actions before executing shell), rasa shell(to chat with bot).
+
+Bot loaded. Type a message and press enter (use '/stop' to exit):
+Your input ->  hi
+Hi! I’m your health support assistant. What’s your name?
+Your input ->  i am mahakal
+Nice to meet you None. How are you feeling today?
+Your input ->  i am feeling sad
+I’m really sorry you’re feeling this way. You’re not alone.
+Would you like me to help you book an appointment with a health professional?
+Your input ->  yes
+📅 Please tell me the preferred appointment date.
+Your input ->  tomorrow
+⏰ What time would you prefer for the appointment?
+Your input ->  5pm
+✅ Appointment confirmed!
+👤 Name: None
+📅 Date: 2025-12-27
+⏰ Time: 5pm
+Your input ->  thank you. Btw Do you know who is mahakal?
+Yes, Mahakal is a commonly used name for Lord Shiva, who is a prominent deity in the Hindu religion. Shiva is often referred to as Mahakal, which translates to "Great Time" or "Great Death," symbolizing the cycle of creation and destruction in the universe.
+Your input ->  well said. I am his little bhakt ambesh
+Nice to meet you Ambesh. How are you feeling today?
+Your input ->  i am doing great
+Take care of yourself. I’m always here if you need support.
+Your input ->  thank you. for now i will stop here bye
+Your input ->  goodbye
+Take care of yourself. I’m always here if you need support.
+Your input ->  /stop

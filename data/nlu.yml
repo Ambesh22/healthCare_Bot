@@ -1,0 +1,108 @@
+version: "3.1"
+
+nlu:
+
+- intent: greet
+  examples: |
+    - hi
+    - hello
+    - hey
+    - good morning
+    - good evening
+  
+- intent: fallback
+  examples: |
+    - who is salman khan
+    - tell me a joke
+    - what is ai
+    - explain depression
+    - random question
+
+- intent: provide_name
+  examples: |
+    - my name is [Ambesh](name)
+    - i am [Rahul](name)
+    - call me [Harsh](name)
+    - [Nandan](name)
+    - this is [Ambesh](name)
+
+- intent: mood_positive
+  examples: |
+    - i am fine
+    - i feel good
+    - doing well
+    - happy
+    - feeling great
+    - great
+    - okay
+
+- intent: mood_negative
+  examples: |
+    - i am not feeling well
+    - not feeling well
+    - sad
+    - very sad
+    - not well
+    - unhappy
+    - depressed
+    - stressed
+    - anxious
+    - not good
+
+- intent: affirm
+  examples: |
+    - yes
+    - yeah
+    - sure
+    - definitely
+    - of course
+    - okay
+
+# - intent: provide_date
+#   examples: |
+#     - today
+#     - tomorrow
+#     - day after tomorrow
+#     - 25 december
+#     - next monday
+
+# - intent: provide_time
+#   examples: |
+#     - 10 am
+#     - 5 pm
+#     - evening
+#     - morning
+#     - afternoon
+
+- intent: deny
+  examples: |
+    - no
+    - nope
+    - never
+    - not now
+    - maybe later
+
+- intent: gender
+  examples: |
+    - male
+    - female
+    - other
+
+- intent: book_appointment
+  examples: |
+    - i want to talk to a doctor
+    - book appointment
+    - i need professional help
+    - schedule a doctor
+    - i want to see a doctor
+
+- intent: goodbye
+  examples: |
+    - bye
+    - goodbye
+    - see you later
+
+- intent: bot_challenge
+  examples: |
+    - are you a bot?
+    - are you human?
